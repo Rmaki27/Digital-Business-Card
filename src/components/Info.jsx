@@ -4,12 +4,12 @@
 export default function Info() {
     return (
         <div className="info-container">
-            {/* <img src={headshot} alt="bio picture" /> */}
-            <h1>Ryan Maki</h1>
-            <h4>Frontend Developer</h4>
+            <h1 className="name">Ryan Maki</h1>
+            <h4 className="career-title">Frontend Developer</h4>
+            <p className="website">makii.webdev.com</p>
             <div>
-                <button>Email</button>
-                <button>LinkedIn</button>
+                <button className="email-btn">Email</button>
+                <button className="linkedin-btn">LinkedIn</button>
             </div>
         </div>
     )

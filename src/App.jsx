@@ -15,10 +15,12 @@ function App() {
   return (
     <>
       <div className='App'>
-          <img src={headshot} alt="" />
+          <img src={headshot} className="headshot" alt="profile picture" />
           <Info />
-          <About />
-          <Interests />
+          <div className='about-interests-container'>
+            <About />
+            <Interests />
+          </div>
           <Footer />
       </div>
     </>
