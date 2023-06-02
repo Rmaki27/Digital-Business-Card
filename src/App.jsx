@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div className='App'>
-          <img src={headshot} className="headshot" alt="profile picture" />
+          {/* <img src={headshot} className="headshot" alt="profile picture" /> */}
           <Info />
           <div className='about-interests-container'>
             <About />
