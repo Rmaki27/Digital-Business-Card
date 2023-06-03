@@ -1,8 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import headshot from './headshot.jpg'
-
 import Info from './components/Info'
 import About from './components/About'
 import Interests from './components/Interests'
@@ -15,7 +10,6 @@ function App() {
   return (
     <>
       <div className='App'>
-          {/* <img src={headshot} className="headshot" alt="profile picture" /> */}
           <Info />
           <div className='about-interests-container'>
             <About />
